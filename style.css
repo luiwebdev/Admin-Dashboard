@@ -19,6 +19,10 @@ img {
     display: block;
 }
 
+ul {
+    list-style-type: none;
+}
+
 header {
     padding: 1rem;
     display: flex;
@@ -114,3 +118,39 @@ header {
     padding: 5px;
     border-radius: 1rem;
 }
+
+aside {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+}
+
+.sidebar-topic {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-logo {
+    width: 40px;
+}
+
+.sidebar-nav, .sidebar-setting {
+    margin-top: 1rem;
+    font-size: 5px;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+aside li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+aside img {
+    width: 20px;
+}
+
