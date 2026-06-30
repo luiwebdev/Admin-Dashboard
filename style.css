@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom: 1px solid gainsboro;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    width: 30px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    flex: 2;
+}
+
+.search-input {
+    border-radius: 1rem;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    width: 80%;
+}
+
+.account {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.account-ring {
+    width: 20px;
+    cursor: pointer;
+}
+
+.account-profile {
+    background-color: lightcoral;
+    width: 2rem;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.account h2 {
+    font-size: 1.125rem;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    flex: 2;
+}
+
+.user-profile {
+    width: 50px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.user-action {
+    flex: 1;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.user-btn {
+    width: 80px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid ghostwhite;
+    padding: 5px;
+    border-radius: 1rem;
+}
