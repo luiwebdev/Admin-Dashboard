@@ -154,3 +154,50 @@ aside img {
     width: 20px;
 }
 
+.projects img {
+    width: 20px;
+}
+
+.projects {
+    background-color: white;
+    padding: 2rem;
+}
+
+.projects-title {
+    font-size: 2rem;
+}
+
+.projects-cards {
+    padding: 2rem 0;
+
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.projects-card {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.card-action img {
+    cursor: pointer;
+}
+
